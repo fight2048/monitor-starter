@@ -49,7 +49,7 @@ public class MonitorAutoConfiguration {
 //        return "";
 //    }
 
-    @Scheduled(cron = "0 */1 * * * ? ")
+    @Scheduled(cron = "0 */5 * * * ? ")
     public void configureTasks() {
         if (!properties.getHeartbeatEnable()) {
             return;
