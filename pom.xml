@@ -8,7 +8,8 @@
     <version>0.0.1</version>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
-    <url>https://github.com/leguang</url>
+    <url>https://github.com/fight2048</url>
+    <description>集成SpringBoot的服务监控功能并自定义服务报警</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <official.site>http://itsite.cn</official.site>
+        <official.site>fight2048.com</official.site>
     </properties>
 
     <dependencies>
@@ -75,17 +76,17 @@
 
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Sonatype Nexus Staging</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+    <!--    <repositories>-->
+    <!--        <repository>-->
+    <!--            <id>sonatype-nexus-staging</id>-->
+    <!--            <name>Sonatype Nexus Staging</name>-->
+    <!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+    <!--            <releases>-->
+    <!--                <enabled>true</enabled>-->
+    <!--            </releases>-->
+    <!--            <snapshots>-->
+    <!--                <enabled>true</enabled>-->
+    <!--            </snapshots>-->
+    <!--        </repository>-->
+    <!--    </repositories>-->
 </project>

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.fight2048.heart.autoconfigure.heartbeat.HeartBeatAutoConfiguration
+com.fight2048.heart.autoconfigure.MonitorAutoConfiguration
